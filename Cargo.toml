@@ -14,9 +14,9 @@ inherits = "release"
 opt-level = 3
 
 [workspace.dependencies.fyrox]
-path = "../Fyrox/fyrox"
+version = "0.34.0"
 default-features = false
 [workspace.dependencies.fyroxed_base]
-path = "../Fyrox/editor"
+version = "0.21.0"
 default-features = false
 
